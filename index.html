@@ -1,0 +1,40 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>在线日语词典</title>
+    <link rel="stylesheet" href="css/style.css">
+</head>
+<body>
+    <div class="container">
+        <header>
+            <h1>在线日语词典</h1>
+            <p>输入日语单词或汉字进行查询</p>
+        </header>
+        
+        <main>
+            <div class="search-box">
+                <input type="text" id="searchInput" placeholder="请输入日语单词或汉字...">
+                <button id="searchBtn">查询</button>
+            </div>
+            
+            <div class="result-section">
+                <h2>查询结果</h2>
+                <div id="result"></div>
+            </div>
+            
+            <div class="dictionary-section">
+                <h2>常用词汇</h2>
+                <div id="dictionary-list"></div>
+            </div>
+        </main>
+        
+        <footer>
+            <p>&copy; 2026 在线日语词典 | 支持平假名、片假名和汉字查询</p>
+        </footer>
+    </div>
+    
+    <script src="js/dictionary.js"></script>
+</body>
+</html>
